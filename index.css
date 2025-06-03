@@ -213,6 +213,105 @@ body, html {
 
 .section-chose{
     height: max-content;
-    width: 900px;
+    width: 100%;
     background-color: #F9FBFC;
+}
+
+.dt1 img{
+    height: 30px;
+    width: auto;
+}
+.dt2 img{
+    height: 30px;
+    width: auto;
+}
+.dt3 img{
+    height: 30px;
+    width: auto;
+}
+.dt4 img{
+    height: 30px;
+    width: auto;
+}
+
+.section-chose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title{
+    margin-left: 50px;
+}
+
+.section-explorevehicules{
+    margin-bottom: 50px;
+}
+
+.section-browse-type {
+  padding: 60px 100px;
+  background-color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.browse-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 800px;
+}
+
+.browse-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.section-browse{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.partiehaute{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.suv img{
+    width: 620px;
+    height: 340px;
+}
+.sedan img{
+    width: 620px;
+    height: 340px;
+}
+
+.hatchback img{
+    width: 400px;
+    height: 350px;
+}
+.hybrid img{
+    width: 400px;
+    height: 350px;
+}
+.coupe img{
+    width: 400px;
+    height: 350px;
+}
+
+
+.partiebasse{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
